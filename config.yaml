@@ -1,4 +1,5 @@
-excel_file_paths: [C:\xlsxtoSQL\bin\Данные АЧБ.xlsx]
+excel_file_paths: [path\to\xlsx\file]
+#postgres_url_base_db: postgresql://user:pass@host:port/database
 postgres_url_base_db: postgresql://postgres:1234@localhost:5432/qwe
 interval_seconds: 3600
-ignorant_sheets: [Протеин,Терминал справочник,Экспортер справочник,Страна справочник,Культура справочник]
+ignorant_sheets: [ignoresheet1,ignoresheet2]
